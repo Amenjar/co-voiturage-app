@@ -1,0 +1,51 @@
+# Java general ignores
+*.class
+*.log
+*.jar
+*.war
+*.ear
+*.iml
+*.hprof
+
+# Maven specific ignores
+target/                  # Directory where compiled code and artifacts are generated
+pom.xml.tag              # Temporary files created during Maven commands
+pom.xml.releaseBackup    # Backup files during release
+pom.xml.versionsBackup   # Backup files created by the Versions plugin
+pom.xml.next             # Next version file during release
+release.properties       # Release plugin properties
+
+# Spring Boot specific ignores
+*.pid
+*.log
+spring.log
+
+# IntelliJ IDEA specific ignores
+.idea/
+*.iml
+.idea/*
+
+# Eclipse specific ignores
+.classpath
+.project
+.settings/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Database files
+*.h2.db
+*.mv.db
+*.sql
+
+# Temporary files
+*.swp
+*~
+
+# Lombok generated files
+.lombok
+
+# Local environment files
+.env
+.env.*
